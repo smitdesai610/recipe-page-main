@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Young Serif,Outfit; */
+}
+
+body {
+    background: hsl(30, 54%, 90%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    /* max-height: 2500px; */
+    /* height: 100%; */
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.containt1 h2 {
+    margin-top: 5px;
+    font-family: Young Serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.containt1 p {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.containt2 {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Outfit;
+    margin: 15px 0px;
+}
+
+.containt2 h4 {
+    color: hsl(332, 51%, 32%);
+}
+
+.containt2 li {
+    list-style: inside;
+    font-size: 10px;
+    color: hsl(30, 10%, 34%);
+    margin: 10px 0px;
+}
+
+.containt3 {
+    border-bottom: 1px solid hsl(33, 6%, 72%);
+}
+
+.containt3 h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+.containt3 ul {
+    margin-bottom: 20px;
+}
+
+.containt3 li {
+    color: hsl(332, 51%, 32%);
+    list-style: inside;
+    color: hsl(30, 10%, 34%);
+    margin: 10px 0px;
+    font-family: Outfit;
+    font-size: 10px;
+}
+
+.containt4 li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit;
+    font-weight:bold ;
+}
+
+.containt4 h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.containt4 li {
+    list-style-position: outside;
+    color: hsl(30, 10%, 34%);
+    margin: 10px 0px;
+    font-family: Outfit;
+    font-size: 10px;
+}
+
+.containt4 ol {
+    padding: 0px 20px 10px 20px;
+    font-family: Outfit;
+    color: hsl(14, 45%, 36%);
+}
+
+.containt4 {
+    border-bottom: 1px solid hsl(33, 6%, 72%);
+}
+
+.containt5 h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#p1 {
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit;
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.containt5 span {
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    font-size: 10px;
+}
+
+#s1,
+#s2,
+#s3,
+#s4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.info1 {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid hsl(33, 6%, 72%);
+}
+
+.info2 {
+    display: flex;
+    width: 100%;
+}
+
+.div {
+    width: 50%;
+    margin: 5px 0px;
+}
